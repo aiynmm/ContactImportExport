@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/contact_name"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:text="张三"
+        android:background="#75b3e2"
+        android:textSize="40sp"
+        android:textColor="#ffffff"
+        android:gravity="center"/>
+
+    <ListView
+        android:id="@+id/detail_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>
